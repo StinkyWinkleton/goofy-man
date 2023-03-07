@@ -71,11 +71,19 @@
                 0 0 151px #0fa;
         }
 
-        #ads {
+        #leftAd {
+            position: absolute;
+            left: 0%;
+        }
+        #rightAd {
+            position: absolute;
+            right: 0%;
+        }
+
+        .ad {
             background-color: lightgrey;
             position: absolute;
             top: 267.03px;
-            left: 0%;
             height: max-content;
             width: 421.5px;
         }
@@ -96,9 +104,15 @@
     </section>
 
     <div id="ads">
-        <div id="leftAd">
+        <div id="leftAd" class="ad">
             <h1>Stinky Winky</h1>
             <p>pp</p>
+        </div>
+        <div id="rightAd" class="ad">
+            <h1>My Links</h1>
+            <ul>
+                <li><a href="https://github.com/StinkyWinkleton">Github</a></li>
+            </ul>
         </div>
     </div>
 
